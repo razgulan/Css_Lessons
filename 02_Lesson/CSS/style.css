@@ -1,0 +1,49 @@
+*{
+    font-family: monospace;
+}
+html{
+    font-size: 22px;
+}
+body{
+    /*choose for font html or body*/
+    /* font-size: 22px; */
+}
+
+main{
+
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+h1, h2{
+    color:blue;
+}
+
+p{
+    color:purple;
+}
+
+p{
+    color:red;
+}
+
+/*Use highlight class instead of this*/
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray{
+    color:gray;
+}
+
+#second{
+    font-style: italic;
+}
