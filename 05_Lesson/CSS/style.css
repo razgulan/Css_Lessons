@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* default uses content-box and calculates only content 
+        then add padding margin and border */
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px double red;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.5em;
+    outline: 5px solid black;
+    outline-offset: 10px;
+}
+
+.circle{
+    margin: 3rem auto;
+    background-color:  gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50px;
+    outline: 2px solid #000;
+    outline-offset: 0.25rem;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
